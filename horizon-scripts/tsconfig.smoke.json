@@ -1,0 +1,17 @@
+﻿{
+  "compilerOptions": {
+    "allowJs": false,
+    "strict": true,
+    "typeRoots": ["types/"],
+    "module": "CommonJS",
+    "lib": ["ES2020"],
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "target": "ES2020",
+    "declaration": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true
+  },
+  "include": ["systems/**/*.ts", "types/HorizonGlobal.d.ts", "types/horizon_core.d.ts"],
+  "exclude": ["_compile-out", "_vendor", "node_modules", "types/horizon_editor.d.ts", "types/CreateClasses.d.ts"]
+}
