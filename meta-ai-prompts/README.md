@@ -16,6 +16,8 @@ Use **manually** in Desktop Editor / Meta AI. Review every result before keeping
 | `08-lighting-review.md` | Plaza lighting readability |
 | `09-mobile-readability.md` | Quest/mobile readability |
 | `10-social-district-setup.md` | First Social District foundation |
-| `11-session-plaza-graybox.md` | **THIS SESSION** — run graybox editor script + Preview |
+| `11-session-plaza-graybox.md` | Run graybox editor script + Preview |
+| `25-ONE-PASTE-futuristic-no-screenshot.md` | Long Code and Act visible plaza/hub rebuild |
+| `26-TEN-WORD-BUILD-EVERYTHING.md` | **PRIMARY** — exact 10-word prompt → run VybeBuildEverything + visible plaza/hub |
 
 Do not request full venues, fake social systems, or invented APIs here.
