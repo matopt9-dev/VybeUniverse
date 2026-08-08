@@ -1,28 +1,23 @@
-# NEXT ACTIONS — 10-word build everything
+# NEXT ACTIONS — Runtime must be Scripts; builders stay Editor Scripts
 
-**Honest limit:** Photoreal mega-city needs Kenney/import passes. Maximize now: full game wiring + visible futuristic Plaza + Hub.
+**You said:** code has to be in Meta runtime or nothing works.
 
-## Exact 10 words
+**Correct split:**
+- **Gameplay** → Meta **Scripts** panel (`horizon/core`) — REQUIRED for Preview  
+- **VybeBuildEverything** → Meta **Editor Scripts** only — Run once to wire the world  
+
+Putting `VybeBuildEverything` into Scripts **breaks** compile (`horizon/editor` not available at runtime).
+
+## Do this now
+
+1. Scripts panel: confirm `VybeSpawnRecovery`, `VybePulseChallenge`, `VybeSocialCheckIn`, etc. compile green.  
+2. Editor Scripts: **Run `VybeBuildEverything`**.  
+3. Code and act paste:
 
 ```
 Run Editor Script VybeBuildEverything then create visible plaza and hub
 ```
 
-## 2-step use
+4. Save → Preview.
 
-1. Open world `1192248460643536` → Meta Gen AI → **Code and act** → scripts in context ON.  
-2. Paste the 10 words above → wait for completion → **Save** → Preview from spawn.
-
-**Fallback:** Editor Scripts → Run `VybeBuildEverything` (wiring only). Then Gen AI creates visible plaza/hub shapes (or paste Phase B–E from `meta-ai-prompts/25-ONE-PASTE-futuristic-no-screenshot.md`).
-
-## What you get
-
-- Hierarchy, quarantine, spawns/triggers/text/lights, ALL Vybe gameplay wired  
-- Unfinished zones hidden  
-- Visible Plaza + Hub only if Code and Act creates real shapes (Trimesh spawn has no mesh)
-
-## After Pass (optional)
-
-Import Kenney from `horizon-assets/source/kenney/` for textured buildings.
-
-Details: `meta-ai-prompts/26-TEN-WORD-BUILD-EVERYTHING.md`
+Details: `Docs/VYBE_RUNTIME_VS_EDITOR.md` · `meta-ai-prompts/26-TEN-WORD-BUILD-EVERYTHING.md`
